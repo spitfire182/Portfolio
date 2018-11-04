@@ -3,4 +3,68 @@
 *::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
   box-sizing: border-box; }
+
+body {
+  font-size: 1.6rem; }
+
+.parallax {
+  height: 100rem;
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 100; }
+  .parallax-layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block; }
+  .parallax-bg {
+    background-image: url(../img/Background-1.png);
+    background-attachment: fixed;
+    background-size: cover; }
+  .parallax-1 {
+    background-image: url(../img/Background-2.png);
+    background-position: top center; }
+  .parallax-2 {
+    background-image: url(../img/Background-3.png);
+    bottom: -20rem; }
+  .parallax-3 {
+    background-image: url(../img/Background-4.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%; }
+  .parallax-4 {
+    background-image: url(../img/Background-5.png);
+    bottom: -20rem; }
+  .parallax-5 {
+    background-image: url(../img/Background-6.png);
+    bottom: -15rem; }
+  .parallax-6 {
+    background-image: url(../img/Background-7.png);
+    bottom: -35rem; }
+  .parallax-sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: burlywood;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; }
+
+.header {
+  width: 100%;
+  height: 90rem;
+  position: relative;
+  overflow: hidden; }
+
+.about {
+  height: 200rem;
+  background-color: #806838; }
