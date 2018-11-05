@@ -1,0 +1,14 @@
+.hero {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 220;
+  text-align: center;
+
+  &__paragraph {
+    margin-top: 2rem;
+    color: indianred;
+    font-size: 1.4rem;
+  }
+}

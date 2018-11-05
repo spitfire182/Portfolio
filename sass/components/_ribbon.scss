@@ -1,0 +1,51 @@
+.ribbon {
+  padding: 3rem 20rem;
+  margin: 2rem 0;
+  position: relative;
+  background: #ed212a;
+
+  &::before,
+  &::after {
+    content: "";
+    width: 8rem;
+    bottom: -4rem;
+    position: absolute;
+    display: block;
+    border: 5rem solid #ed212a;
+    z-index: -2;
+  }
+
+  &::before {
+    left: -8rem;
+    border-right-width: 7rem;
+    border-left-color: transparent;
+  }
+
+  &::after {
+    right: -9rem;
+    border-left-width: 5em;
+    border-right-color: transparent;
+  }
+
+  &__content {
+    &::before,
+    &::after {
+      content: "";
+      bottom: -4rem;
+      position: absolute;
+      display: block;
+      border-style: solid;
+      border-color: #ac2128 transparent transparent transparent;
+    }
+
+    &::before {
+      left: 0;
+      border-width: 4rem 0 0 4rem;
+    }
+
+    &::after {
+      right: 0;
+      border-width: 4rem 4rem 0 0;
+    }
+  }
+}

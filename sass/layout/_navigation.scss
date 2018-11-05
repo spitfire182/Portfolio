@@ -1,0 +1,37 @@
+.navigation {
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-color: #47011d;
+    z-index: 1500;
+
+    &__list {        
+        list-style: none;
+        text-align: center;
+    }
+
+    &__item {
+        display: inline-block;
+        margin: 3rem 1rem 0 0;
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            display: inline-block;
+            font-size: 1.3rem;
+            //color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        &:hover,
+        &:active {
+            //border-bottom: 5px solid $color-brown;
+        }
+    }     
+
+}

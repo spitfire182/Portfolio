@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg5582"
+   viewBox="0 0 1980 1386"
+   height="1386"
+   width="1980">
+  <defs
+     id="defs5584" />
+  <metadata
+     id="metadata5587">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(1407.1428,606.35205)"
+     id="layer1">
+    <g
+       transform="matrix(1.4142857,0,0,1.4142857,-1407.1428,-606.35208)"
+       id="g4680">
+      <g
+         id="g4682">
+        <g
+           id="g4684">
+          <defs
+             id="defs4686">
+            <circle
+               r="36.599998"
+               cy="437.60001"
+               cx="695.59998"
+               id="SVGID_1_" />
+          </defs>
+          <clipPath
+             id="SVGID_2_">
+            <use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use4690"
+               style="overflow:visible"
+               xlink:href="#SVGID_1_" />
+          </clipPath>
+        </g>
+        <g
+           id="g4692">
+          <defs
+             id="defs4694">
+            <path
+               d="m 632.6,469.7 0,0 c 13.9,0 25.2,11.3 25.2,25.2 l 0,96.7 -50.4,0 0,-96.7 c 0,-13.9 11.3,-25.2 25.2,-25.2 z"
+               id="SVGID_3_" />
+          </defs>
+          <clipPath
+             id="SVGID_4_">
+            <use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use4698"
+               style="overflow:visible"
+               xlink:href="#SVGID_3_" />
+          </clipPath>
+        </g>
+        <g
+           id="g4700">
+          <defs
+             id="defs4702">
+            <path
+               d="m 760.7,469.7 0,0 c 13.9,0 25.2,11.3 25.2,25.2 l 0,96.7 -50.4,0 0,-96.7 c 0,-13.9 11.3,-25.2 25.2,-25.2 z"
+               id="SVGID_5_" />
+          </defs>
+          <clipPath
+             id="SVGID_6_">
+            <use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use4706"
+               style="overflow:visible"
+               xlink:href="#SVGID_5_" />
+          </clipPath>
+        </g>
+        <g
+           id="g4708">
+          <defs
+             id="defs4710">
+            <path
+               d="m 513.9,558.9 0,0 c 8.1,0 14.7,6.6 14.7,14.7 l 0,56.3 -29.3,0 0,-56.3 c -0.1,-8.1 6.5,-14.7 14.6,-14.7 z"
+               id="SVGID_7_" />
+          </defs>
+          <clipPath
+             id="SVGID_8_">
+            <use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use4714"
+               style="overflow:visible"
+               xlink:href="#SVGID_7_" />
+          </clipPath>
+        </g>
+        <g
+           id="g4716">
+          <defs
+             id="defs4718">
+            <path
+               d="m 877.4,558.9 0,0 c 8.1,0 14.7,6.6 14.7,14.7 l 0,56.3 -29.3,0 0,-56.3 c -0.1,-8.1 6.5,-14.7 14.6,-14.7 z"
+               id="SVGID_9_" />
+          </defs>
+          <clipPath
+             id="SVGID_10_">
+            <use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use4722"
+               style="overflow:visible"
+               xlink:href="#SVGID_9_" />
+          </clipPath>
+        </g>
+      </g>
+    </g>
+    <rect
+       x="-1407.1428"
+       class="st0"
+       width="1979.9999"
+       height="1386"
+       id="rect4726"
+       y="-606.35205"
+       style="clip-rule:evenodd;fill:#f7af97;fill-rule:evenodd" />
+    <path
+       class="st1"
+       d="m -1407.1428,-199.60351 0,979.25143 1979.99995,0 0,-979.25143 c -267.58291,-150.19714 -612.951477,-240.71143 -990.00001,-240.71143 -377.04857,0 -722.41714,90.51429 -989.99994,240.71143 z"
+       id="path4728"
+       style="clip-rule:evenodd;fill:#f7bba3;fill-rule:evenodd" />
+    <path
+       class="st2"
+       d="m -1407.1428,71.797918 0,707.850002 1979.99995,0 0,-707.850002 C 343.17714,-124.50494 -14.920029,-250.80065 -417.14286,-250.80065 c -402.22286,-0.14143 -760.31994,126.15429 -989.99994,322.598568 z"
+       id="path4730"
+       style="clip-rule:evenodd;fill:#f5cab7;fill-rule:evenodd" />
+  </g>
+</svg>

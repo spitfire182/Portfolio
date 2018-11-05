@@ -1,11 +1,74 @@
 .header {
-    width: 100%;
-    height: 90rem;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 105vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  max-width: 120rem;
+}
+
+.main {
+  float: left;
+  display: block;
+  width: 84%;
 }
 
 .about {
-    height: 200rem;
-    background-color: #806838;
+  padding: 10rem 4rem;
+  background-color: #fff;
+  color: #47011d;
+  //background-color: #47011d;
+  //color: #f5cab7;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+  .heading-secondary--title {
+    color: #f5cab7;
+    color: #47011d;
+  }
+
+  .heading-ternary--title {
+    background-color: #f5cab7;
+    color: #47011d;
+    background-color: #47011d;
+    color: #fff;
+    padding: 1rem 4rem;
+    position: relative;
+    display: block;
+    margin-top: 1rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-left: 4rem solid #fff;
+      border-top: 4rem solid transparent;
+      border-bottom: 4rem solid transparent;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-right: 4rem solid #fff;
+      border-top: 4rem solid transparent;
+      border-bottom: 4rem solid transparent;
+    }
+  }
+
+
+.skills {
+
 }

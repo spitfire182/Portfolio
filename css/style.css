@@ -7,18 +7,66 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
 
 body {
   font-size: 1.6rem; }
 
+.heading-primary {
+  font-size: 4.8rem;
+  text-align: center;
+  color: #fde6d6;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px; }
+
+.heading-secondary {
+  text-align: center;
+  font-size: 3.6rem;
+  color: #47011d; }
+
+.heading-ternary {
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  font-family: 'Pattaya', sans-serif; }
+
+.paragraph {
+  margin: 6rem;
+  font-weight: 100; }
+  .paragraph::first-letter {
+    font-size: 7rem;
+    font-weight: 100;
+    background-image: linear-gradient(to bottom, #e7005c, #47011d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; }
+
+.footer {
+  width: 100%;
+  float: left; }
+
+.hero {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 220;
+  text-align: center; }
+  .hero__paragraph {
+    margin-top: 2rem;
+    color: indianred;
+    font-size: 1.4rem; }
+
 .parallax {
-  height: 100rem;
+  height: 140vh;
   width: 100%;
   display: block;
   position: relative;
   z-index: 100; }
-  .parallax-layer {
+  .parallax__layer {
     background-position: bottom center;
     background-size: auto;
     background-repeat: repeat-x;
@@ -26,45 +74,173 @@ body {
     height: 100%;
     position: absolute;
     display: block; }
-  .parallax-bg {
-    background-image: url(../img/Background-1.png);
-    background-attachment: fixed;
-    background-size: cover; }
-  .parallax-1 {
-    background-image: url(../img/Background-2.png);
-    background-position: top center; }
-  .parallax-2 {
-    background-image: url(../img/Background-3.png);
-    bottom: -20rem; }
-  .parallax-3 {
-    background-image: url(../img/Background-4.png);
-    background-repeat: no-repeat;
-    background-position: 10% 50%; }
-  .parallax-4 {
-    background-image: url(../img/Background-5.png);
-    bottom: -20rem; }
-  .parallax-5 {
-    background-image: url(../img/Background-6.png);
-    bottom: -15rem; }
-  .parallax-6 {
-    background-image: url(../img/Background-7.png);
-    bottom: -35rem; }
-  .parallax-sun {
+    .parallax__layer--bg {
+      background-image: url(../img/Background-1.svg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .parallax__layer--1 {
+      background-image: url(../img/Background-2.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top center;
+      z-index: 120; }
+    .parallax__layer--2 {
+      background-image: url(../img/Background-3.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom center; }
+    .parallax__layer--3 {
+      background-image: url(../img/Background-4.svg);
+      background-repeat: no-repeat;
+      background-position: 10% 20%;
+      z-index: 130; }
+    .parallax__layer--4 {
+      background: url(../img/Background-5.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom center; }
+    .parallax__layer--5 {
+      background-image: url(../img/Background-6.svg);
+      background-repeat: no-repeat;
+      width: 60%;
+      background-size: contain; }
+    .parallax__layer--6 {
+      background-image: url(../img/Background-7.svg);
+      background-repeat: no-repeat;
+      background-size: contain; }
+      .parallax__layer--6::after {
+        content: " ";
+        background-color: #47011d;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 100%;
+        left: 0; }
+    .parallax__layer--sun {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: #fde6d6;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 300px;
+      border-radius: 50%; }
+
+.ribbon {
+  padding: 3rem 20rem;
+  margin: 2rem 0;
+  position: relative;
+  background: #ed212a; }
+  .ribbon::before, .ribbon::after {
+    content: "";
+    width: 8rem;
+    bottom: -4rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: burlywood;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; }
+    display: block;
+    border: 5rem solid #ed212a;
+    z-index: -2; }
+  .ribbon::before {
+    left: -8rem;
+    border-right-width: 7rem;
+    border-left-color: transparent; }
+  .ribbon::after {
+    right: -9rem;
+    border-left-width: 5em;
+    border-right-color: transparent; }
+  .ribbon__content::before, .ribbon__content::after {
+    content: "";
+    bottom: -4rem;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #ac2128 transparent transparent transparent; }
+  .ribbon__content::before {
+    left: 0;
+    border-width: 4rem 0 0 4rem; }
+  .ribbon__content::after {
+    right: 0;
+    border-width: 4rem 4rem 0 0; }
+
+.sidebar {
+  float: left;
+  width: 16%;
+  display: block; }
+
+.navigation {
+  position: sticky;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  background-color: #47011d;
+  z-index: 1500; }
+  .navigation__list {
+    list-style: none;
+    text-align: center; }
+  .navigation__item {
+    display: inline-block;
+    margin: 3rem 1rem 0 0; }
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase; }
 
 .header {
   width: 100%;
-  height: 90rem;
+  height: 105vh;
   position: relative;
   overflow: hidden; }
 
+.content {
+  width: 100%;
+  max-width: 120rem; }
+
+.main {
+  float: left;
+  display: block;
+  width: 84%; }
+
 .about {
-  height: 200rem;
-  background-color: #806838; }
+  padding: 10rem 4rem;
+  background-color: #fff;
+  color: #47011d;
+  max-width: 120rem;
+  margin: 0 auto; }
+
+.heading-secondary--title {
+  color: #f5cab7;
+  color: #47011d; }
+
+.heading-ternary--title {
+  background-color: #f5cab7;
+  color: #47011d;
+  background-color: #47011d;
+  color: #fff;
+  padding: 1rem 4rem;
+  position: relative;
+  display: block;
+  margin-top: 1rem; }
+  .heading-ternary--title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4rem solid #fff;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent; }
+  .heading-ternary--title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-right: 4rem solid #fff;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent; }

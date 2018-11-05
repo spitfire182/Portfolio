@@ -7,7 +7,7 @@ function castParallax() {
 
 		var top = this.pageYOffset;
 
-        var layers = document.getElementsByClassName("parallax-layer");
+        var layers = document.getElementsByClassName("parallax__layer");
 		var layer, speed, yPos;
 		for (var i = 0; i < layers.length; i++) {
 			layer = layers[i];

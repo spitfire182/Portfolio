@@ -1,0 +1,36 @@
+.heading-primary {
+  font-size: 4.8rem;
+  text-align: center;
+  color: #fde6d6;
+  text-transform: uppercase; 
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.heading-secondary {
+    text-align: center;
+    font-size: 3.6rem;
+    color: #47011d;
+}
+
+.heading-ternary {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.paragraph {
+    margin: 6rem;
+    font-weight: 100;
+
+    &::first-letter {
+        font-size: 7rem;
+        font-weight: 100;
+        background-image: linear-gradient(to bottom, #e7005c, #47011d);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        color: transparent;
+      }
+}

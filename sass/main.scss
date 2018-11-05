@@ -1,6 +1,12 @@
 @import "base/base";
 @import "base/typography";
 
+@import "components/footer";
+@import "components/hero";
 @import "components/parallax";
+@import "components/ribbon";
+@import "components/sidebar";
+
+@import "layout/_navigation";
 
 @import "pages/home";

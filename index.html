@@ -1,32 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Piotr Podgorni</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <script src="js/scripts.js"></script>
 </head>
+
 <body>
     <header id="header" class="header">
         <div class="parallax">
-            <div class="parallax-layer parallax-bg"></div>
-            <div class="parallax-sun"></div>
-            <div class="parallax-layer parallax-1" data-speed="100"></div>
-            <div class="parallax-layer parallax-2" data-speed="8"></div>
-            <div class="parallax-layer parallax-3" data-speed="50"></div>
-            <div class="parallax-layer parallax-4" data-speed="15"></div>
-            <div class="parallax-layer parallax-5" data-speed="20"></div>
-            <div class="parallax-layer parallax-6" data-speed="50"></div>
+            <div class="parallax__layer parallax__layer--bg" data-speed="0"></div>
+            <div class="parallax__layer--sun"></div>
+            <div class="parallax__layer parallax__layer--1" data-speed="100"></div>
+            <div class="parallax__layer parallax__layer--2" data-speed="8"></div>
+            <div class="parallax__layer parallax__layer--3" data-speed="50"></div>
+            <div class="parallax__layer parallax__layer--4" data-speed="15"></div>
+            <div class="parallax__layer parallax__layer--5" data-speed="20"></div>
+            <div class="parallax__layer parallax__layer--6" data-speed="50"></div>
+        </div>
+        <div class="hero">
+            <div class="ribbon">
+                <div class="ribbon__content">
+                    <h1 class="heading-primary">Welcome</h1>
+                </div>
+            </div>
+            <h2 class="heading-secondary">I am front-end developer!</h2>
+            <p class="hero__paragraph">Scroll down to see more</p>
         </div>
     </header>
 
+    <nav class="navigation" id="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__item">Home</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__item">About Me</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__item">Skills</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__item">Projects</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__item">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
     <section class="about">
-        aaa
+        <h2 class="heading-secondary heading-secondary--title">About Me</h2>
+        <h3 class="heading-ternary heading-ternary--title">Section description</h3>
+        <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Lobortis elementum nibh tellus molestie
+            nunc. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Sapien pellentesque
+            habitant morbi tristique senectus et netus et malesuada. Id aliquet lectus proin nibh nisl
+            condimentum
+            id venenatis a. Nibh tellus molestie nunc non blandit massa enim. Diam in arcu cursus euismod quis
+            viverra nibh cras pulvinar. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et
+            netus et. Tempor orci eu lobortis elementum nibh tellus. Ac felis donec et odio pellentesque diam
+            volutpat commodo.
+        </p>
+        <p class="paragraph">
+            Cras sed felis eget velit aliquet sagittis. Luctus accumsan tortor posuere ac ut consequat semper
+            viverra. Quis hendrerit dolor magna eget est. Aliquam eleifend mi in nulla posuere sollicitudin.
+            Non
+            curabitur gravida arcu ac. Dictum at tempor commodo ullamcorper a. Elit scelerisque mauris
+            pellentesque
+            pulvinar pellentesque habitant morbi tristique. Neque convallis a cras semper. Facilisis magna
+            etiam
+            tempor orci eu. Neque gravida in fermentum et sollicitudin ac orci. Congue eu consequat ac felis
+            donec.
+            Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Vitae purus faucibus ornare
+            suspendisse.
+        </p>
+        <p class="paragraph">
+            Dui accumsan sit amet nulla facilisi. Vel quam elementum pulvinar etiam non quam lacus suspendisse
+            faucibus. Sed vulputate mi sit amet mauris. Vivamus at augue eget arcu. Vulputate mi sit amet
+            mauris
+            commodo quis imperdiet massa. Tortor at risus viverra adipiscing. Risus in hendrerit gravida rutrum
+            quisque non tellus. Porta nibh venenatis cras sed felis. Sagittis nisl rhoncus mattis rhoncus urna
+            neque. Sed arcu non odio euismod lacinia at quis risus. Risus ultricies tristique nulla aliquet.
+            Tellus
+            rutrum tellus pellentesque eu tincidunt.
+        </p>
     </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading-secondary heading-secondary--title">My Skills</h2>
+        <h3 class="heading-ternary heading-ternary--title">Section description</h3>
+        <div>
+            <p>HTML5</p>
+            <p>CSS</p>
+            <p>JS</p>
+        </div>
+        <div>
+            <p>Sass</p>
+            <p>jQuery</p>
+            <p>github</p>
+            <p>NPM</p>
+            <p>RWD</p>
+            <p>BEM</p>
+            <p>WordPress</p>
+            <p>Adobe Photoshop</p>
+        </div>
+        <div>
+            Learning now:
+            <p>React</p>
+            <p>Webpack</p>
+            <p>Enzyme</p>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="footer">
+        <a href="https://www.vecteezy.com/">Free Vector Art by Vecteezy!</a>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
