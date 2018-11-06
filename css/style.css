@@ -30,12 +30,13 @@ body {
   font-size: 2rem;
   text-align: center;
   display: block;
-  font-family: 'Pattaya', sans-serif; }
+  font-family: 'Lobster Two', cursive; }
 
 .paragraph {
   margin: 6rem;
   font-weight: 100; }
   .paragraph::first-letter {
+    font-family: 'Lobster Two', cursive;
     font-size: 7rem;
     font-weight: 100;
     background-image: linear-gradient(to bottom, #e7005c, #47011d);
