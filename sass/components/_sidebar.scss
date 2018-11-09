@@ -1,5 +1,4 @@
 .sidebar {
-    float: left;
-    width: 16%;
+    grid-column: page-start / content-start;
     display: block;
 }

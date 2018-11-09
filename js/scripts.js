@@ -1,18 +1,18 @@
 function castParallax() {
 
-	var opThresh = 350;
-	var opFactor = 750;
+	const opThresh = 350;
+	const opFactor = 750;
 
 	window.addEventListener("scroll", function(event){
 
-		var top = this.pageYOffset;
+		const top = this.pageYOffset;
 
-        var layers = document.getElementsByClassName("parallax__layer");
-		var layer, speed, yPos;
-		for (var i = 0; i < layers.length; i++) {
+        const layers = document.getElementsByClassName("parallax__scroll");
+		let layer, speed, yPos;
+		for (let i = 0; i < layers.length; i++) {
 			layer = layers[i];
 			speed = layer.getAttribute('data-speed');
-			var yPos = -(top * speed / 100);
+			let yPos = -(top * speed / 100);
 			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
 
 		}

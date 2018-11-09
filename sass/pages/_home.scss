@@ -1,74 +1,136 @@
 .header {
+  grid-column: page-start / page-end;
   width: 100%;
-  height: 105vh;
-  position: relative;
+  height: 100rem;
   overflow: hidden;
-}
 
-.content {
-  width: 100%;
-  max-width: 120rem;
+  display: grid;
+  grid-template-columns: [parallax-start] 100vw [parallax-end];
+  grid-template-rows: 100rem;
+  justify-content: center;
+  //align-content: center;
 }
 
 .main {
-  float: left;
-  display: block;
-  width: 84%;
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-template-columns: [main-start] 1fr [content-start] 80vw [content-end] 1fr [main-end];
+  background-color: #ffffff;
+  //z-index: 300;
+}
+
+.about-2 {
+  padding: 12rem 6rem;
+  background-color: #fafafa;
+  z-index: 2000;
+
+  grid-row: 1 / -1;
+  grid-column: main-start / main-end;
+
+  display: grid;
+  grid-template-columns: [about-start] 1fr [about-content] 30vw [about-break] 50vw [about-content-end] 1fr [about-end];
+  grid-template-rows: repeat(2, minmax(15rem, 1fr));
+  grid-row-gap: 10rem;
+
+  .about-title {
+    grid-column: about-content / about-break;
+    padding: 4rem;
+
+    & h2 {
+      font-size: 4rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      color: #212121;
+    }
+
+    & h3 {
+      color: #c7c7c7;
+      font-size: 3rem;
+      line-height: 1.5rem;
+
+    font-family: 'Lobster Two', cursive;
+    }
+  }
+
+  .par-group {
+    grid-column: about-break / about-content-end;
+    grid-row: 1 / -1;
+  }
+
+  .about-par-lg {
+    grid-column: about-content / about-content-end;
+    grid-row: 2 / -1;
+  }
+  p {
+    //margin: 3rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 4rem;
+    color: #212121;
+  }
 }
 
 .about {
+  background-color: #fafafa;
+  background-image: url(../img/myAvatar.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto;
+  grid-column: content-start / content-end;
+  //grid-template-rows: repeat(2, min-content) 10rem repeat(2, min-content);
   padding: 10rem 4rem;
-  background-color: #fff;
   color: #47011d;
-  //background-color: #47011d;
-  //color: #f5cab7;
-  max-width: 120rem;
-  margin: 0 auto;
+
+  z-index: 300;
 }
 
-  .heading-secondary--title {
-    color: #f5cab7;
-    color: #47011d;
+.heading-secondary--title {
+  color: #f5cab7;
+  color: #47011d;
+}
+
+.heading-ternary--title {
+  background-color: #f5cab7;
+  color: #47011d;
+  background-color: #47011d;
+  color: #fff;
+  padding: 1rem 4rem;
+  position: relative;
+  display: block;
+  margin-top: 1rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4rem solid #fff;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
   }
 
-  .heading-ternary--title {
-    background-color: #f5cab7;
-    color: #47011d;
-    background-color: #47011d;
-    color: #fff;
-    padding: 1rem 4rem;
-    position: relative;
-    display: block;
-    margin-top: 1rem;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 0;
-      height: 0;
-      border-left: 4rem solid #fff;
-      border-top: 4rem solid transparent;
-      border-bottom: 4rem solid transparent;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 0;
-      height: 0;
-      border-right: 4rem solid #fff;
-      border-top: 4rem solid transparent;
-      border-bottom: 4rem solid transparent;
-    }
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-right: 4rem solid #fff;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
   }
-
+}
 
 .skills {
+  grid-column: content-start / content-end;
+}
 
+.projects {
+  grid-column: content-start / content-end;
 }

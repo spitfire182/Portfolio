@@ -1,87 +1,62 @@
 .parallax {
-  height: 140vh;
-  width: 100%;
+  grid-column: page-start / page-end;
+  grid-column: parallax-start / parallax-end;
+  grid-row: 1 / -1;
+  //height: 100rem;
   display: block;
   position: relative;
-  z-index: 100;
+  //z-index: 10;
 
-  &__layer {
-    background-position: bottom center;
-    background-size: auto;
-    background-repeat: repeat-x;
-    width: 100%;
-    height: 100%;
+  &__layer {    
+    background-position: 0 -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 105rem;
     position: absolute;
-    display: block;
 
-    &--bg {
-      background-image: url(../img/Background-1.svg);
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
+    &.parallax__scroll {
+      position: fixed;
     }
 
     &--1 {
-      background-image: url(../img/Background-2.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: top center;
-      z-index: 120;
+      background-image: url(../img/Background-1.svg);
     }
 
     &--2 {
-      background-image: url(../img/Background-3.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: bottom center;
+      background-image: url(../img/Background-2.svg);
+      background-position: 0 0;
     }
 
     &--3 {
-      background-image: url(../img/Background-4.svg);
-      background-repeat: no-repeat;
-      background-position: 10% 20%;
-      z-index: 130;
+      background-image: url(../img/Background-3.svg);
     }
 
     &--4 {
-      background: url(../img/Background-5.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: bottom center;
+      background-image: url(../img/Background-4.svg);
     }
 
     &--5 {
-      background-image: url(../img/Background-6.svg);
-      background-repeat: no-repeat;
-      width: 60%;
-      background-size: contain;
+      background-image: url(../img/Background-5.svg);
     }
 
     &--6 {
-      background-image: url(../img/Background-7.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
+      background-image: url(../img/Background-6.svg);
+    }
 
-      &::after {
-        content: " ";
-        background-color: #47011d;
-        width: 100%;
-        height: 400px;
-        position: absolute;
-        top: 100%;
-        left: 0;
-      }
+    &--7 {
+      background-image: url(../img/Background-7.svg);
     }
 
     &--sun {
-      position: absolute;
-      top: 50%;
+      position: fixed;
+      top: 60%;
       left: 50%;
       background-color: #fde6d6;
       transform: translate(-50%, -50%);
       width: 300px;
       height: 300px;
       border-radius: 50%;
-    }
+    }    
   }
 }

@@ -1,10 +1,18 @@
 .hero {
+  /*
   position: absolute;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+  */
   z-index: 220;
   text-align: center;
+
+  display: grid;
+  grid-column: parallax-start / parallax-end;
+  grid-row: 1 / -1;
+  justify-content: center;
+  align-content: center;
 
   &__paragraph {
     margin-top: 2rem;

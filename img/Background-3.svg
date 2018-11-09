@@ -6,14 +6,59 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   id="svg5460"
-   viewBox="0 0 1980 774.00001"
-   height="774"
-   width="1980">
+   id="svg4587"
+   viewBox="0 0 1920 1250"
+   height="1250"
+   width="1920">
   <defs
-     id="defs5462" />
+     id="defs4589">
+    <clipPath
+       id="clipPath3652"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-168.14709"
+         x="0.5"
+         height="1417.6471"
+         width="2591.1765"
+         id="rect3654"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3658"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-200.192"
+         x="0.72921878"
+         height="1110.9862"
+         width="1947.443"
+         id="rect3660"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-width:0.72921878;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3664"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-136.21376"
+         x="1.0938281"
+         height="1046.6433"
+         width="1790.8755"
+         id="rect3666"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-width:0.72921878;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3670"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-142.67654"
+         x="1.5"
+         height="1391.1765"
+         width="2279.4119"
+         id="rect3672"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+  </defs>
   <metadata
-     id="metadata5465">
+     id="metadata4592">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -25,12 +70,14 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(684.2857,86.066369)"
+     transform="translate(0,197.63784)"
      id="layer1">
     <path
+       clip-path="url(#clipPath3670)"
+       style="clip-rule:evenodd;fill:#ea584b;fill-rule:evenodd;fill-opacity:1"
+       id="path57"
+       d="M 1425.4982,625.46389 C 1371.742,597.21448 1339.2415,581.99271 1283.7026,603.38546 1124.7654,664.54681 807.71372,904.11826 648.77651,787.2809 632.04627,774.93892 360.93421,668.38653 327.33661,658.51295 283.17977,645.62245 283.17977,646.85664 237.92586,646.85664 215.7103,646.85664 107.51232,674.28326 0,703.35546 l 0,640.54854 1919.8628,0 0,-539.2072 c -28.3865,-10.83352 -56.2245,-18.6501 -68.2922,-22.21556 -137.8187,-39.63145 -297.5788,-89.41075 -426.0724,-157.01735 z"
        class="st3"
-       d="M 785.86428,-52.919558 C 730.42432,-82.050266 696.90572,-97.746909 639.62713,-75.686765 475.71143,-12.617375 148.72857,234.42797 -15.187149,113.94563 -32.441431,101.21863 -312.0457,-8.6578582 -346.69571,-18.839464 c -45.54,-13.292655 -45.54,-12.019951 -92.21142,-12.019951 -22.91143,0 -134.49858,28.2822335 -245.37857,58.261411 l 0,660.531634 1980,0 0,-556.02877 c -29.2757,-11.17149 -57.9857,-19.23192 -70.4314,-22.90861 C 1083.1471,68.128417 918.38284,16.796152 785.86428,-52.919558 Z"
-       id="path4732"
-       style="clip-rule:evenodd;fill:#ea584b;fill-rule:evenodd" />
+       transform="translate(-1.5,-196.13781)" />
   </g>
 </svg>

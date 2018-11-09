@@ -1,10 +1,11 @@
 .navigation {
+    grid-column: page-start / page-end;
     position: sticky;
     width: 100%;
     height: auto;
     top: 0;
     left: 0;
-    background-color: #47011d;
+    background-color: #150008;
     z-index: 1500;
 
     &__list {        

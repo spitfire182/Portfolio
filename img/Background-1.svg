@@ -5,16 +5,93 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   id="svg5582"
-   viewBox="0 0 1980 1386"
-   height="1386"
-   width="1980">
+   id="svg4587"
+   viewBox="0 0 1920 1250"
+   height="1250"
+   width="1920">
   <defs
-     id="defs5584" />
+     id="defs4589">
+    <clipPath
+       id="clipPath3652"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-168.14709"
+         x="0.5"
+         height="1417.6471"
+         width="2591.1765"
+         id="rect3654"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3658"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-200.192"
+         x="0.72921878"
+         height="1110.9862"
+         width="1947.443"
+         id="rect3660"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-width:0.72921878;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3664"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-136.21376"
+         x="1.0938281"
+         height="1046.6433"
+         width="1790.8755"
+         id="rect3666"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-width:0.72921878;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3670"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-142.67654"
+         x="1.5"
+         height="1391.1765"
+         width="2279.4119"
+         id="rect3672"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3688"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-253.44116"
+         x="0.5"
+         height="1502.9412"
+         width="2635.2942"
+         id="rect3690"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3682"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-243.67654"
+         x="2.5"
+         height="1491.1765"
+         width="2441.1765"
+         id="rect3684"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath3676"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-163.76468"
+         x="2"
+         height="1411.7646"
+         width="2255.8823"
+         id="rect3678"
+         style="fill:#aa0000;fill-opacity:1;stroke:#806838;stroke-opacity:1" />
+    </clipPath>
+  </defs>
   <metadata
-     id="metadata5587">
+     id="metadata4592">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,134 +103,31 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(1407.1428,606.35205)"
+     transform="translate(0,197.63784)"
      id="layer1">
-    <g
-       transform="matrix(1.4142857,0,0,1.4142857,-1407.1428,-606.35208)"
-       id="g4680">
-      <g
-         id="g4682">
-        <g
-           id="g4684">
-          <defs
-             id="defs4686">
-            <circle
-               r="36.599998"
-               cy="437.60001"
-               cx="695.59998"
-               id="SVGID_1_" />
-          </defs>
-          <clipPath
-             id="SVGID_2_">
-            <use
-               height="100%"
-               width="100%"
-               y="0"
-               x="0"
-               id="use4690"
-               style="overflow:visible"
-               xlink:href="#SVGID_1_" />
-          </clipPath>
-        </g>
-        <g
-           id="g4692">
-          <defs
-             id="defs4694">
-            <path
-               d="m 632.6,469.7 0,0 c 13.9,0 25.2,11.3 25.2,25.2 l 0,96.7 -50.4,0 0,-96.7 c 0,-13.9 11.3,-25.2 25.2,-25.2 z"
-               id="SVGID_3_" />
-          </defs>
-          <clipPath
-             id="SVGID_4_">
-            <use
-               height="100%"
-               width="100%"
-               y="0"
-               x="0"
-               id="use4698"
-               style="overflow:visible"
-               xlink:href="#SVGID_3_" />
-          </clipPath>
-        </g>
-        <g
-           id="g4700">
-          <defs
-             id="defs4702">
-            <path
-               d="m 760.7,469.7 0,0 c 13.9,0 25.2,11.3 25.2,25.2 l 0,96.7 -50.4,0 0,-96.7 c 0,-13.9 11.3,-25.2 25.2,-25.2 z"
-               id="SVGID_5_" />
-          </defs>
-          <clipPath
-             id="SVGID_6_">
-            <use
-               height="100%"
-               width="100%"
-               y="0"
-               x="0"
-               id="use4706"
-               style="overflow:visible"
-               xlink:href="#SVGID_5_" />
-          </clipPath>
-        </g>
-        <g
-           id="g4708">
-          <defs
-             id="defs4710">
-            <path
-               d="m 513.9,558.9 0,0 c 8.1,0 14.7,6.6 14.7,14.7 l 0,56.3 -29.3,0 0,-56.3 c -0.1,-8.1 6.5,-14.7 14.6,-14.7 z"
-               id="SVGID_7_" />
-          </defs>
-          <clipPath
-             id="SVGID_8_">
-            <use
-               height="100%"
-               width="100%"
-               y="0"
-               x="0"
-               id="use4714"
-               style="overflow:visible"
-               xlink:href="#SVGID_7_" />
-          </clipPath>
-        </g>
-        <g
-           id="g4716">
-          <defs
-             id="defs4718">
-            <path
-               d="m 877.4,558.9 0,0 c 8.1,0 14.7,6.6 14.7,14.7 l 0,56.3 -29.3,0 0,-56.3 c -0.1,-8.1 6.5,-14.7 14.6,-14.7 z"
-               id="SVGID_9_" />
-          </defs>
-          <clipPath
-             id="SVGID_10_">
-            <use
-               height="100%"
-               width="100%"
-               y="0"
-               x="0"
-               id="use4722"
-               style="overflow:visible"
-               xlink:href="#SVGID_9_" />
-          </clipPath>
-        </g>
-      </g>
-    </g>
     <rect
-       x="-1407.1428"
+       clip-path="url(#clipPath3688)"
+       style="clip-rule:evenodd;fill:#f7af97;fill-rule:evenodd;fill-opacity:1"
+       y="0"
+       id="rect51"
+       height="1343.9039"
+       width="1919.8628"
        class="st0"
-       width="1979.9999"
-       height="1386"
-       id="rect4726"
-       y="-606.35205"
-       style="clip-rule:evenodd;fill:#f7af97;fill-rule:evenodd" />
+       x="0"
+       transform="translate(-0.5,-197.13784)" />
     <path
+       clip-path="url(#clipPath3682)"
+       style="clip-rule:evenodd;fill:#f7bba3;fill-rule:evenodd;fill-opacity:0.94117647"
+       id="path53"
+       d="m 0,394.39468 0,949.50932 1919.8628,0 0,-949.50932 C 1660.4071,248.75937 1325.5282,160.99421 959.93142,160.99421 594.33468,160.99421 259.45575,248.75937 0,394.39468 Z"
        class="st1"
-       d="m -1407.1428,-199.60351 0,979.25143 1979.99995,0 0,-979.25143 c -267.58291,-150.19714 -612.951477,-240.71143 -990.00001,-240.71143 -377.04857,0 -722.41714,90.51429 -989.99994,240.71143 z"
-       id="path4728"
-       style="clip-rule:evenodd;fill:#f7bba3;fill-rule:evenodd" />
+       transform="translate(-0.5,-197.13784)" />
     <path
+       clip-path="url(#clipPath3676)"
+       style="clip-rule:evenodd;fill:#f5cab7;fill-rule:evenodd;fill-opacity:0.94117647"
+       id="path55"
+       d="m 0,657.55302 0,686.35098 1919.8628,0 0,-686.35098 C 1697.1588,467.21234 1349.9378,344.75251 959.93142,344.75251 569.925,344.61538 222.70409,467.0752 0,657.55302 Z"
        class="st2"
-       d="m -1407.1428,71.797918 0,707.850002 1979.99995,0 0,-707.850002 C 343.17714,-124.50494 -14.920029,-250.80065 -417.14286,-250.80065 c -402.22286,-0.14143 -760.31994,126.15429 -989.99994,322.598568 z"
-       id="path4730"
-       style="clip-rule:evenodd;fill:#f5cab7;fill-rule:evenodd" />
+       transform="translate(-0.5,-197.13784)" />
   </g>
 </svg>

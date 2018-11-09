@@ -14,4 +14,14 @@ html {
 
 body {
     font-size: 1.6rem;
+    //background-color: #150008;
+}
+
+.container {
+    background-color: #fafafa;
+    /*
+    display: grid;
+    grid-template-rows: 100rem repeat(3, min-content);
+    grid-template-columns: [page-start] 1fr [content-start] minmax(120rem, min-content) [content-end] 1fr [page-end];
+    */
 }
